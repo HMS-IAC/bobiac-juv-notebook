@@ -49,3 +49,14 @@ juv run notebook.ipynb
 juv run --with=pyqt6 notebook.ipynb # additional dependencies for this session (not saved)
 juv run --jupyter=nbclassic notebook.ipynb -- --no-browser # pass additional arguments to Jupyter
 ```
+
+## Course Structure
+
+The course materials are organized in the following folders:
+
+- `00_intro_bioimage_analysis/`: Introduction to bioimage analysis concepts and tools
+- `01_intro_fluorescence_microscopy/`: Basics of fluorescence microscopy
+- `02_intro_python_1/`: First part of Python programming introduction
+- `03_intro_python_2/`: Second part of Python programming introduction
+
+Each folder contains Jupyter notebooks, both the teacher version and the student version.
